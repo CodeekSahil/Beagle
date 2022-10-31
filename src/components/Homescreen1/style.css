@@ -1,0 +1,122 @@
+.pageContainer {
+  width: 100vw;
+  height: 100vh;
+}
+
+.searchInputStyle {
+  width: 757px;
+  height: 68px;
+  left: 406px;
+  top: 201px;
+  padding-left: 45px;
+  background: #ffffff;
+  border-radius: 15px;
+  font-size: larger;
+  
+}
+.flzz {
+  display: flex;
+  justify-content: center;
+  padding-right: 500px;
+}
+.inputContainer {
+  position: relative;
+  margin: 38px 0px;
+  width: 757px;
+  height: 68px;
+}
+.searchIcon {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    right: -25px;
+    top: 16px;
+}
+.recentSearches {
+  background-color: white;
+}
+.recentSearchImg {
+  width: 24px;
+  height: 24px;
+  margin-right: 4px;
+}
+.text {
+  display: flex;
+  align-items: center;
+}
+.beagleLogo {
+  display: flex;
+  justify-content: center;
+}
+.bottom-half {
+  display: flex;
+}
+.bottom-half-left {
+  border: 2px solid white;
+  margin: 10px;
+  flex-grow: 1;
+  background-color: #ffffff;
+}
+
+.bottom-half-right {
+  margin-right: 20px;
+  flex-grow: 1;
+  padding: 30px 43px 80px 33px;
+  background-color: white;
+}
+.child-update-1 {
+  display: inline;
+}
+.child-update-2 {
+  display: inline;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.child-update-3 {
+  display: inline;
+  margin-left: 20px;
+}
+.parent-update-1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eaf6db;
+  margin-bottom: 10px;
+}
+.parent-update-2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c6e0eb;
+}
+.parent-child-left {
+  margin-left: 20px;
+}
+.parent-child-right {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.lastUpdate {
+  /* position: absolute;
+width: 192px;
+height: 20px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+}
+.bottom-half-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.searchResults {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomRectangle {
+  border: 0.5px solid #979797;
+  margin-right: 100px;
+  padding-left: 20px;
+  margin-bottom: 60px;
+}

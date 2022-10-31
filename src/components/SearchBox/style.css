@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.dropdown {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 111px;
+  left: 8px;
+  z-index: 10;
+  width: 800px;
+}
+input {
+  border-style: hidden;
+  border: 1px solid rgb(199, 186, 186);
+}
+/* input:focus {
+  border-bottom: none;
+} */
+
+.dropdown:empty {
+  border: none;
+}
+
+.dropdown-row {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+}
+
+input {
+  width: 220px;
+}
+
+.search-inner {
+  display: flex;
+}
+.h3Style {
+  margin-right: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  color: #000000;
+  margin-top: 25px;
+}
+.linkStyle {
+  font-size: 15px;
+  padding-top: 8px;
+  color: #0078d7;
+}
+.h3Style3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+
+  color: #0078d7;
+}
+.h3Style2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #0078d7;
+  padding-top: 8px;
+}
+
+input :focus {
+  border: none;
+}
